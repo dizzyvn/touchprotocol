@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <Button
+            android:id="@+id/uploadButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/upload_your_new_profile"/>
+
+        <!--NAME-->
+        <TextView
+            android:id="@+id/viewName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            />
+
+        <EditText
+            android:id="@+id/inputViewName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textview"
+            android:inputType="textPersonName"
+            tools:ignore="LabelFor" />
+
+        <!--EMail-->
+        <TextView
+            android:id="@+id/viewEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/email" />
+
+        <EditText
+            android:id="@+id/inputViewEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textview"
+            android:inputType="textEmailAddress"
+            tools:ignore="LabelFor" />
+
+        <!--Phone-->
+        <TextView
+            android:id="@+id/viewPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/phone" />
+
+        <EditText
+            android:id="@+id/inputViewPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textview"
+            android:inputType="phone"
+            tools:ignore="LabelFor" />
+
+        <!--Birthday-->
+        <TextView
+            android:id="@+id/viewBirthday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/birthday"/>
+
+        <EditText
+            android:id="@+id/inputViewBirthday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textview"
+            android:inputType="date"
+            tools:ignore="LabelFor" />
+
+        <!--Facebook-->
+        <TextView
+            android:id="@+id/viewFacebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/facebook" />
+
+        <EditText
+            android:id="@+id/inputViewFacebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textview"
+            android:inputType="text"
+            tools:ignore="LabelFor" />
+
+        <!--Twitter-->
+        <TextView
+            android:id="@+id/viewTwitter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/twitter" />
+
+        <EditText
+            android:id="@+id/inputViewTwitter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textview"
+            android:inputType="text"
+            tools:ignore="LabelFor" />
+
+        <!--Github-->
+        <TextView
+            android:id="@+id/viewGithub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/github" />
+
+        <EditText
+            android:id="@+id/inputViewGithub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textview"
+            android:inputType="text"
+            tools:ignore="LabelFor" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
