@@ -3,6 +3,8 @@ package com.example.dizzy.touch;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.Html;
+import android.text.method.LinkMovementMethod;
 import android.widget.TextView;
 
 import java.util.Map;
@@ -29,8 +31,20 @@ public class SingleViewActivity extends Activity {
         viewEmail.setText(featureMap.get("email"));
         viewPhone.setText(featureMap.get("phone"));
         viewBirthday.setText(featureMap.get("birthday"));
-        viewFacebook.setText(featureMap.get("facebook"));
-        viewTwitter.setText(featureMap.get("twitter"));
-        viewGithub.setText(featureMap.get("github"));
+
+        String facebook = featureMap.get("facebook");
+        if (!facebook.equals("")) facebook = "https://www.facebook.com/" + facebook;
+        else facebook = "";
+        viewFacebook.setText(facebook);
+
+        String twitter = featureMap.get("twitter");
+        if (!twitter.equals("")) twitter = "https://twitter.com/" + twitter;
+        else facebook = "";
+        viewTwitter.setText(twitter);
+
+        String github = featureMap.get("github");
+        if (!github.equals("")) github = "https://github.com/" + github;
+        else github = "";
+        viewGithub.setText(github);
     }
 }

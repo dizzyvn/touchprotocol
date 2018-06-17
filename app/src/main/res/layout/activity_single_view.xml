@@ -49,7 +49,8 @@
             android:text="@string/textview"
             android:textSize="18sp"
             android:textColor="#000000"
-            android:padding="5dp"/>
+            android:padding="5dp"
+            android:autoLink="email"/>
 
         <View
             android:layout_width="match_parent"
@@ -73,7 +74,8 @@
             android:text="@string/textview"
             android:textSize="18sp"
             android:textColor="#000000"
-            android:padding="5dp"/>
+            android:padding="5dp"
+            android:autoLink="phone"/>
 
         <View
             android:layout_width="match_parent"
@@ -96,7 +98,8 @@
             android:text="@string/textview"
             android:textSize="18sp"
             android:textColor="#000000"
-            android:padding="5dp"/>
+            android:padding="5dp"
+            android:autoLink="none"/>
 
         <View
             android:layout_width="match_parent"
@@ -119,7 +122,8 @@
             android:text="@string/textview"
             android:textSize="18sp"
             android:textColor="#000000"
-            android:padding="5dp"/>
+            android:padding="5dp"
+            android:autoLink="web" />
 
         <View
             android:layout_width="match_parent"
@@ -142,7 +146,8 @@
             android:text="@string/textview"
             android:textSize="18sp"
             android:textColor="#000000"
-            android:padding="5dp"/>
+            android:padding="5dp"
+            android:autoLink="web"/>
 
         <View
             android:layout_width="match_parent"
@@ -165,7 +170,8 @@
             android:text="@string/textview"
             android:textSize="18sp"
             android:textColor="#000000"
-            android:padding="5dp"/>
+            android:padding="5dp"
+            android:autoLink="web"/>
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
